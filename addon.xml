@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="script.service.DenonControl" name="Denon Control" version="0.0.1" provider-name="hochopeper">
+	<requires>
+		<import addon="xbmc.python"                 version="2.1.0"/>
+		<import addon="xbmc.json"                   version="6.0.0"/>
+		<import addon="xbmc.addon"                  version="12.0.0"/>
+		<import addon="script.module.elementtree"   version="1.2.7"/>
+		<import addon="script.module.simplejson"    version="2.0.10" optional="true"/>
+		<import addon="script.common.plugin.cache"  version="1.3.0"/>
+	</requires>
+	<extension point="xbmc.python.script"         library="default.py">
+    	<provides>executable</provides>
+  	</extension>
+  	<extension point="xbmc.service" library="addon.py" start="login"/>
+  	
+<extension point="xbmc.addon.metadata">
+    <summary lang="en">Service to control settings for your Denon AVR. Initially built 
+    and tested for AVR-3808A. 
+    </summary>
+    <description lang="en"></description>
+    <disclaimer lang="en">For bugs, requests or general questions visit ...</disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+  </extension>
+
+
+
+
+</addon>
