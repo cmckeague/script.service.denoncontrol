@@ -1,1 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<settings>
+    <category label="32001">
+        <setting label="150" type="ipaddress"   id="ipaddress" default=""/>
+        <setting label="32012" type="number"   id="port" default="23"/>
+    </category>
+</settings>
